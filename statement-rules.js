@@ -8,6 +8,6 @@ function submit()
 
     if (a > 35 && c.toUpperCase() == "DECISIONS" || v.toUpperCase() == "VIP") 
     { 
-      result.innerHTML = ('True'); 
-    } else { result.innerHTML = ('False'); }
+      result.innerHTML = ('TRUE'); 
+    } else { result.innerHTML = ('FALSE'); }
 }
