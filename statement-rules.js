@@ -10,5 +10,4 @@ function submit()
     { 
       result.innerHTML = ('true'); 
     } else { result.innerHTML = ('false'); }
-
 }
