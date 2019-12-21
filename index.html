@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="statement-rules.css">
+  <link rel="stylesheet" media="(max-width: 500px)" href="statement-rules-mediaquery.css">
   <title>Statement Rules</title>
 </head>
 <body>
@@ -14,15 +15,15 @@
   
           <div> 
             <label for="age">Person's Age: </label> 
-            <input id="a"> 
+            <input id="a" class="current"> 
           </div>
           <div> 
             <label for="company">Company's Name: </label> 
-            <input id="c"> 
+            <input id="c" class="current"> 
           </div>
           <div> 
             <label for="vip">Person Is: </label> 
-            <input id="v"> 
+            <input id="v" class="current"> 
           </div>
           <button onclick="submit()">Submit</button>
   
